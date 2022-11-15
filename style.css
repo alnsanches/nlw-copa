@@ -159,41 +159,20 @@ h5 {
 
 
 @keyframes appear {
-    0% {
-        opacity: 0;
-        transform: translateY(-50px);
-    }
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
-
-/* RESPONSIVO */
-
-@media (min-width: 500px) {
-    #cards {
-        flex-direction: row;
-        max-width: 450px;
-        flex-wrap: wrap;
-    }
-
-    h5 {
-        color: #f6f6f6;
-        font-size: 14px;
-        text-transform: capitalize;
-    }
-
-    .foot {
-
-        display: flex;
-        justify-content: space-between;
-    }
-
-    h4 {
-        font-size: 16px;
-        color: #f6f6f6;
-        text-transform: capitalize;
-    }
+@media (min-width: 700px) {
+  #cards {
+    max-width: 670px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
